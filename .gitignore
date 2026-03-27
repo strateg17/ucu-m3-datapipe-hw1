@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Airflow local state
+airflow_home/airflow.cfg
+airflow_home/airflow.db
+airflow_home/logs/airflow_home/data/
+airflow_home/simple_auth_manager_passwords.json.generated
+airflow_home/*.log
+airflow_home/*.pid
